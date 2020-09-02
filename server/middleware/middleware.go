@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"todoappv1/server/models"
 
-	"../models"
 	"github.com/gorilla/mux"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -17,7 +17,7 @@ import (
 )
 
 // DB connection string for localhhost mongoDB
-const connectionString = "test"
+const connectionString = "mongodb+srv://admin:admin4020@libermongov1.u7oq0.mongodb.net/test?retryWrites=true&w=majority"
 
 // Database Name
 const dbName = "test"
