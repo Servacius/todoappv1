@@ -17,7 +17,7 @@ import (
 )
 
 // DB connection string for localhhost mongoDB
-const connectionString = "mongodb+srv://admin:admin4020@libermongov1.u7oq0.mongodb.net/test?retryWrites=true&w=majority"
+const connectionString = "your url"
 
 // Database Name
 const dbName = "test"
