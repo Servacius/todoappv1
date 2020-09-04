@@ -17,7 +17,7 @@ import (
 )
 
 // DB connection string for localhhost mongoDB
-const connectionString = "your url"
+const connectionString = "<ADD YOUR URL HERE!!!!!>"
 
 // Database Name
 const dbName = "test"
